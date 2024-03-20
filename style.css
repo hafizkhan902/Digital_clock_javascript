@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.display{
+    background-color: aquamarine;
+    height: 160px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: "Geostar Fill", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:350){
+    .display{
+        font-size:8px;
+    }
+}
